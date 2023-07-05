@@ -1,0 +1,164 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.navbar.scrolling-active {
+  background-color: #004aad;
+  padding: 15px 0 15px 0;
+}
+
+.navbar i {
+  color: white;
+}
+
+.navbar i:hover {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar fa-brands {
+    align-items: center;
+  }
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../assets/img/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero h1 {
+  --animate-delay: 0.7s;
+}
+
+.hero p {
+  --animate-delay: 1.2s;
+}
+
+.hero button {
+  --animate-delay: 1.7s;
+}
+
+.about .row .col:nth-child(1) {
+  background-color: #222;
+}
+
+.projects {
+  padding: 100px 0 100px 0;
+}
+
+.projects img {
+  height: 250px;
+}
+
+.projects p {
+  text-align: justify;
+}
+
+.services img {
+  width: 400px;
+  height: 400px;
+}
+
+.services h5 {
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.services i {
+  color: rgb(96, 136, 96);
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .services img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .services h5 {
+    font-size: 16px;
+  }
+}
+
+.faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.faq .accordion {
+  --bs-accordion-bg: aliceblue;
+}
+.faq .accordion .accordion-button:fokus {
+  box-shadow: none;
+}
+
+.templates {
+  padding: 30px 0 100px 0;
+  background-color: aliceblue;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.templates img {
+  height: 350px;
+}
+
+.templates p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 1200px) {
+  .templates h6 {
+    font-size: 15px;
+  }
+}
+
+.kelasonline {
+  padding: 30px 0 100px 0;
+  background-color: aliceblue;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+.kelasonline img {
+  height: 350px;
+}
+
+.kelasonline p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 1200px) {
+  .kelasonline h6 {
+    font-size: 15px;
+  }
+}
+
+.footer {
+  min-height: 60vh;
+  background-color: #004aad;
+  margin-top: 0px;
+}
+
+.footer .copyright {
+  padding-top: 100px;
+}
+
+.footer p {
+  text-align: justify;
+}
